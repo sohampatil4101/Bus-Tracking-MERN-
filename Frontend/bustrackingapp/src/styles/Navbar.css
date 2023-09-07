@@ -25,6 +25,7 @@
 }
 
 .navbar__img a {
+    font-family: Poppins;
     color: black;
     text-decoration: none;
     transition: all .3s;
@@ -118,13 +119,7 @@
     }
 }
 
-@media(max-width:1800px) {
-    .navbar__links {
-        margin-left: 30vh;
-    }
-}
-
-@media(max-width:1350px) {
+@media(max-width:1150px) {
     .navbar__links {
         margin-left: 10vh;
     }
