@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Home from './components/Home';
+import Register from './components/register';
+import Login from './components/login';
 import { Routes, Route } from 'react-router-dom'
 
 
@@ -15,6 +15,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>
+
+
     </>
   );
 }
