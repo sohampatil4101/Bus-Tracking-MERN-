@@ -1,0 +1,91 @@
+#hero {
+    padding-top: 15rem;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    margin: 0 auto;
+}
+
+
+.hero-img {
+    max-width: 50rem;
+    height: 100%;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 50rem;
+    justify-content: center;
+    text-align: start;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-text h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #FBAE1F;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.hero__links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.try-link {
+    color: #FBAE1F;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+.download_app {
+    background-color: #FBAE1F;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 2.7rem;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 10px 15px 0 dfb669;
+    transition: all 0.3s;
+}
+
+@media(max-width:1020px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-img {
+
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero__links {
+        justify-content: center;
+    }
+}
