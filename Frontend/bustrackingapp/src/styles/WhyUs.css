@@ -21,6 +21,10 @@
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    background-image: url('/src/images/arc-why-main-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .icons-content {
@@ -56,13 +60,17 @@
 }
 
 .down-content {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 @media(max-width:900px) {
     .icons-content {
         flex-direction: column !important;
         gap: 5rem;
+    }
+
+    .why-icons-container {
+        background-image: none;
     }
 }
 
