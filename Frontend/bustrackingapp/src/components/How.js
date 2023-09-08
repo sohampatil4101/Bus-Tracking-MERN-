@@ -30,7 +30,7 @@ const How = () => {
                                 </div>
 
                                 <div className="how-icon">
-                                    <i class="fa-solid fa-route"></i>
+                                    <i className="fa-solid fa-route"></i>
                                     <div className="how-icon-content">Choose your route for real-time bus tracking to stay updated on arrivals and departures.</div>
                                 </div>
                                 <div className="how-icon"><i className='far fa-clock'></i>
