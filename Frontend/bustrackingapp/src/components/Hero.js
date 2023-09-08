@@ -10,7 +10,8 @@ const Hero = () => {
                 <div className="container">
                     <div className="hero-container">
                         <div className="hero-img">
-                            <img src={HeroImg} alt="main-img" />
+                            <div className="img-border-main">
+                                <img src={HeroImg} alt="main-img" /></div>
                         </div>
                         <div className="hero-text">
                             <h2 className='hero_text_header'>
