@@ -6,6 +6,8 @@ import Singhgadh from '../images/cities/cities-singhgadh.png'
 import Kosaragadh from '../images/cities/cities-kasaragod.png'
 import Vijayawada from '../images/cities/cities-vijayawada.png'
 import Rajgadh from '../images/cities/cities-rajgadh.png'
+import Nashik from '../images/cities/cities-nashik.png'
+import Sambhaji from '../images/cities/cities-sambhaji-nagar.png'
 
 export const citiesData = [
     {
@@ -42,6 +44,16 @@ export const citiesData = [
         key: 7,
         img: Vijayawada,
         name: "Vijayawada",
+    },
+    {
+        key: 9,
+        img: Nashik,
+        name: "Nashik",
+    },
+    {
+        key: 10,
+        img: Sambhaji,
+        name: "Sambhaji Nagar",
     },
     {
         key: 8,

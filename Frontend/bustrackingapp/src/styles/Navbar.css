@@ -16,7 +16,7 @@
     z-index: 99999;
     margin: 0 auto;
     transition: all .3s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    max-width: 1200px;
 }
 
 .navbar__img {
@@ -37,7 +37,6 @@
     list-style: none;
     gap: 5rem;
     transition: all .3s;
-    margin-left: 60vh;
 }
 
 .try-link {
@@ -53,7 +52,7 @@
     font-size: 1.7rem;
     font-weight: 500;
     text-decoration: none;
-    transition: all .3s;
+    transition: all .1s;
 }
 
 .navbar__links a:hover {
@@ -68,7 +67,7 @@
     font-family: Comfortaa, sans-serif;
     font-size: 1.7rem;
     font-weight: 500;
-    transition: all .3s;
+    transition: all .1s;
 }
 
 .navbar__buttons__sign-in {
@@ -100,7 +99,6 @@
 
 
 
-
 @media(max-width:1050px) {
     .navbar {
         justify-content: space-between;
@@ -116,11 +114,5 @@
 
     .navbar__buttons {
         display: none;
-    }
-}
-
-@media(max-width:1150px) {
-    .navbar__links {
-        margin-left: 10vh;
     }
 }
