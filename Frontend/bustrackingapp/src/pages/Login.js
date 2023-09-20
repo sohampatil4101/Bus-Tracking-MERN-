@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../admin_panels/Layout'
+
 
 const Login = () => {
     return (
-        <div>Login</div>
+        <div>
+            <Layout />
+        </div>
     )
 }
 

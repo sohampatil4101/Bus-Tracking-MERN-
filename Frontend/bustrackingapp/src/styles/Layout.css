@@ -1,0 +1,32 @@
+.sidebar-content {
+    display: flex;
+    margin-top: 8rem;
+}
+
+.sidebar {
+    background-color: #FBAE1F;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar__links li {
+    list-style: none;
+    font-size: 16px;
+    margin: 40px 30px;
+    opacity: 0.8;
+}
+
+.sidebar__links li:hover {
+    opacity: 1.4;
+}
+
+.sidebar__links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__links li a i {
+    font-size: 13px;
+    margin-right: 2px;
+}
