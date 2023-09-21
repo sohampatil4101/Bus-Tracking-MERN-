@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom'
 import '../styles/Layout.css'
 import DashBoard from './components/DashBoard'
 import SideBar from './components/SideBar'
+import Manage from './components/Manage'
 
 const Layout = () => {
 
@@ -11,8 +12,8 @@ const Layout = () => {
             <SideBar />
             <DashBoard />
             <Routes>
-                <Route path='/login' element={<Layout />}>
-                    <Route path='manage' element={<DashBoard />} />
+                <Route path='login' element={<Layout />}>
+                    <Route path='manage' element={<Manage />} />
                     <Route path='terminal' element={<DashBoard />} />
                     <Route path='schedule' element={<DashBoard />} />
                     <Route path='bookings' element={<DashBoard />} />

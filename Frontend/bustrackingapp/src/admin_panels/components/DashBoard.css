@@ -68,13 +68,23 @@
     border-left: 5px solid turquoise;
 }
 
-@media(max-width:1225px) {
-    .card-elements {
-        grid-template-columns: 1fr 1fr;
+@media(max-width:1274px) {
+    .dashboard-container {
+        margin-left: 50px;
     }
 }
 
 @media(max-width:950px) {
+    .card-elements {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dashboard-container {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:650px) {
     .card-elements {
         grid-template-columns: 1fr;
     }
