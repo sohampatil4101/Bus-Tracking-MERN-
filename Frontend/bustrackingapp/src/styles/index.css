@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+}
+.container{
+    margin: 25vh auto;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box input{
+    width: 80vw;
+}
+button{
+    margin: 15px 0px;
+}

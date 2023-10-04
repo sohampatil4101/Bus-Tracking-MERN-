@@ -24,15 +24,15 @@ const Footer = () => {
                         <ul className="footer-content__2">
                             <li className='footer-content__2__links'>Social Connect</li>
                             <li className='footer-content__2__links-icons'>
-                                <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                                <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-                                <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i className="fa-brands fa-youtube"></i></a>
+                                <a href="/"><i className="fa-brands fa-facebook"></i></a>
+                                <a href="/"><i className="fa-brands fa-instagram"></i></a>
+                                <a href="/"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="/"><i className="fa-brands fa-twitter"></i></a>
+                                <a href="/"><i className="fa-brands fa-youtube"></i></a>
                             </li>
                         </ul>
                         <ul className="footer-content__3">
-                            <li><a href="#">Terms and Conditions </a></li>
+                            <li><a href="/">Terms and Conditions </a></li>
                             <li>Copyright Â© TransitGo Mobility Private Limited. All Rights Reserved.</li>
                         </ul>
                     </div>
