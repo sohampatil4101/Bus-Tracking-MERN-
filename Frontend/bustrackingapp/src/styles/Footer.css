@@ -1,5 +1,6 @@
 footer {
     padding-top: 10rem;
+    bottom: 0 !important;
 }
 
 .fcontainer {
@@ -11,7 +12,8 @@ footer {
 .footer-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-content__1 li {
@@ -47,12 +49,25 @@ footer {
     font-size: 1.7rem;
 }
 
+.footer-content__3 li {
+    margin-bottom: 10px;
+}
+
 .footer-content__3 a {
     color: white;
 }
 
-@media(max-width:750px) {
+@media(max-width:800px) {
     .footer-content {
         grid-template-columns: 1fr;
+    }
+
+    .footer-content__2 {
+        align-items: start;
+        margin-bottom: 50px;
+    }
+
+    .footer-content__1 {
+        margin-bottom: 50px;
     }
 }

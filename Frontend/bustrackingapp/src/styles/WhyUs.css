@@ -1,0 +1,81 @@
+#why {
+    padding-top: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-header {
+    font-size: 2.7rem;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.why-subheader {
+    font-size: 3.7rem;
+    color: #FBAE1F;
+    text-align: center;
+    padding: 20px;
+}
+
+.why-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-image: url('/src/images/arc-why-main-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.icons-content {
+    display: flex;
+    gap: 20rem;
+}
+
+.why-icon {
+    text-align: center;
+}
+
+.why-icon-container {
+    background-color: #FBAE1F;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fa-solid,
+.far {
+    font-size: 5rem;
+}
+
+.why-icon-content {
+    font-size: 14px;
+    max-width: 15rem;
+    color: gray;
+}
+
+.down-content {
+    margin-top: 7rem;
+}
+
+@media(max-width:900px) {
+    .icons-content {
+        flex-direction: column !important;
+        gap: 5rem;
+    }
+
+    .why-icons-container {
+        background-image: none;
+    }
+}
+
+@media(max-width:1020px) {
+    .arc-content {
+        display: none;
+    }
+}

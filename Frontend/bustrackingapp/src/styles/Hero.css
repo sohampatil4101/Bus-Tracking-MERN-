@@ -9,9 +9,14 @@
     margin: 0 auto;
 }
 
+.img-border-main {
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    padding: 8%;
+}
 
 .hero-img {
-    max-width: 50rem;
+    max-width: 60rem;
     height: 100%;
 }
 
@@ -26,6 +31,7 @@
     max-width: 50rem;
     justify-content: center;
     text-align: start;
+    margin: 0 20px;
 }
 
 .hero-text h2 {

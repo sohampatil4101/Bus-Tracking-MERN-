@@ -1,0 +1,61 @@
+.sidebar-content {
+    display: flex;
+    margin-top: 8rem;
+    flex-direction: column;
+}
+
+.sidebar {
+    background-color: #FBAE1F;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    transition: 0.5s ease;
+}
+
+.sidebar__links li {
+    list-style: none;
+    font-size: 16px;
+    margin: 40px 30px;
+    opacity: 0.8;
+}
+
+.sidebar__links li:hover {
+    opacity: 1.4;
+}
+
+.sidebar__links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__links li a i {
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+.collapsed {
+    left: -250px;
+    transition: left 0.5s ease;
+}
+
+.toggle-button.collapsed {
+    left: 0;
+}
+
+.toggle-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 250px;
+    color: #FBAE1F;
+    background-color: transparent;
+    border: 1px solid #FBAE1F;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.toggle-button i {
+    font-size: 18px;
+}
+
+/* Want to add an functionality which automatically collapses the sidebar once it reaches 1275 screen width */
