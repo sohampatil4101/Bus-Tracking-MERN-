@@ -4,7 +4,8 @@ connectToMongo();
 
 const app = express()
 const port = 5000
-var cors = require('cors')
+var cors = require('cors');
+const { contactRoutes } = require('./routes/contactRoutes');
 
 
 app.use(cors()) // To allow browser to use api to make changes and solve cors error
@@ -14,10 +15,11 @@ app.use(express.json()) // when u want to use req.body then u need to have a mid
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
- 
+
 
 
 app.use('/api/user', require('./routes/user'))
+app.use('/api/contacts', contactRoutes);
 
 
 

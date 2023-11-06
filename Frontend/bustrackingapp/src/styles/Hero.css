@@ -1,5 +1,5 @@
 #hero {
-    padding-top: 15rem;
+    padding-top: 0;
 }
 
 .hero-container {
@@ -64,6 +64,10 @@
     font-size: 1.7rem;
 }
 
+.download_app:hover {
+    background-color: #f0a61d;
+}
+
 .download_app {
     background-color: #FBAE1F;
     color: white;
@@ -73,7 +77,6 @@
     border-radius: 15px;
     text-decoration: none;
     box-shadow: 0 10px 15px 0 dfb669;
-    transition: all 0.3s;
 }
 
 @media(max-width:1020px) {
