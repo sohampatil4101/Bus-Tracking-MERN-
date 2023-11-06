@@ -29,6 +29,11 @@
     max-height: 20rem !important;
 }
 
+.img-container:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
 .img-container img {
     width: 100%;
     height: 100%;
